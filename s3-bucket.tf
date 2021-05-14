@@ -1,7 +1,7 @@
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
-  bucket = "KrishnaG-Training-s3-bucket"
+  bucket = "krishnag-terraform-training-s3-bucket"
   acl    = "private"
 
   versioning = {
