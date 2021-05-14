@@ -1,7 +1,3 @@
-module "s3-bucket" {
-  source  = "app.terraform.io/KrishnaG-training/s3-bucket/aws"
-  version = "1.15.0"
-  # insert required variables here
 //--------------------------------------------------------------------
 // Variables
 variable "s3_bucket_policy" {}
@@ -17,5 +13,4 @@ module "s3_bucket" {
   bucket_prefix = "KrishnaG-"
   policy = "${var.s3_bucket_policy}"
   request_payer = "devops"
-}
 }
