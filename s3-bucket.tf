@@ -17,6 +17,7 @@ module "s3_bucket" {
   bucket_prefix = "KrishnaG-"
   policy = "${var.s3_bucket_policy}"
   request_payer = "devops"
-  tags = "Billable = "true" ; Department = "devops""
+  tags = "Billable = "true"" 
+  tags = "Department = "devops""
 }
 }
